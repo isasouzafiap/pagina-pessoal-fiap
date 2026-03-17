@@ -2,10 +2,18 @@
 O objetivo deste site é demonstrar tanto meu conhecimento técnico e o meu crescimento adquirido nas aulas de front-end, quanto descrever mais sobre mim, como, minhas habilidades, meus conhecimentos em linguagens de programação etc. Com o site busco mostrar minha evolução e aprimoramentos em coisas que já tinha conhecimento.
 
 ## Minhas cores:  
-#4C1D95 #34D399 #F5F3FF #1E1B4B #F59E0B 20px
+#4C1D95 <img width="19" height="12" alt="image" src="https://github.com/user-attachments/assets/48d387bc-9198-44fa-ab86-df87a271851d" />
+
+
+#34D399
+#F5F3FF
+#1E1B4B
+#F59E0B
+20px
 
 ## Meu logotipo:
 https://ui-avatars.com/api/?background=4C1D95&color=1E1B4B&name=IsabelleSouza
+<br>
 <img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/859235be-7983-4be9-a8f7-be1754452f0e" />
 
 
