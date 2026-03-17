@@ -6,6 +6,8 @@ O objetivo deste site é demonstrar tanto meu conhecimento técnico e o meu cres
 
 ## Meu logotipo:
 https://ui-avatars.com/api/?background=4C1D95&color=1E1B4B&name=IsabelleSouza
+<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/859235be-7983-4be9-a8f7-be1754452f0e" />
+
 
 ## Quem sou eu 👩🏾 :
 Isabelle Souza Lima - RM:569370  
