@@ -6,7 +6,8 @@ O objetivo deste site é demonstrar tanto meu conhecimento técnico e o meu cres
 <br>
 #34D399 <img width="16" height="14" alt="image" src="https://github.com/user-attachments/assets/07fe5360-f25e-478c-a1a7-f9c4980151aa" />
 <br>
-#F5F3FF <img width="16" height="14" alt="image" src="https://github.com/user-attachments/assets/c25ec78a-b219-4714-8c88-be935d017c1a" />
+#F5F3FF <img width="15" height="15" alt="image" src="https://github.com/user-attachments/assets/b8f192a7-c52b-49cb-8232-76559d8e1d8a" />
+
 <br>
 #1E1B4B <img width="16" height="14" alt="image" src="https://github.com/user-attachments/assets/2596ec4a-be5a-4b1b-8bfd-0bff00fe7919" />
 <br>
