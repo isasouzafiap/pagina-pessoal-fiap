@@ -21,8 +21,7 @@
        <li> <a href="#contato">Contato</a> </li>
     </ul>
 
-    <img src="img/download.png" alt="Logo Isabelle"> 
-
+  
     <h1>Isabelle Souza</h1>
     <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
 
@@ -32,87 +31,130 @@
 
 
 <section id="sobre">
-
+    <div class="container">
     <h2>Sobre Mim</h2>
-    <p>
-        Sou uma estudante muito empenhada da área de tecnologia, e busco oportunidades para aplicar meus conhecimentos, aprender na prática e crescer profissionalmente.
-        Tenho facilidade para trabalhar em grupo e buscar soluções práticas junto da equipe para desafios.
-    </p>
 
+    <div class="sobre-mim">
+
+    <div class="card">
+    <div class="texto-sobre-mim">
+    
+            <p>
+                Sou uma estudante muito empenhada da área de tecnologia, e busco oportunidades para aplicar meus conhecimentos, aprender na prática e crescer profissionalmente.
+                Tenho facilidade para trabalhar em grupo e buscar soluções práticas junto da equipe para desafios.
+            </p>
+        </div>
+
+        </div>
+            <img src="img/IMG_1905.jpeg" alt="Logo Isabelle" class="foto-perfil">
+
+        </div>
+
+    </div>
 </section>
 
 
 <section id="obj">
-
+<div class="container">
     <h2>Objetivo Profissional</h2>
+
+    <div class="card">
     <p>
         Desejo crescer muito na área da tecnologia, aprender cada vez mais e ganhar experiência. 
         Busco melhorar minhas habilidades na programação, trabalhar em projetos que me ajudem a evoluir e conquistar oportunidades no ramo.
         Meu objetivo é me tornar uma grande profissional, criando soluções úteis e sempre me atualizando com novas tecnologias.
     </p>
-
+    </div>
+</div>
 </section>
 
 
 <section id="hab">
-
+  <div class="container">
     <h2>Habilidades</h2>
 
-    <ul>
-        <li>CSS e HTML</li>
-        <li>JavaScript</li>
-        <li>Modelagem de Dados</li>
-        <li>C#</li>
-        <li>Git e GitHub</li>
-        <li>.NET MAUI</li>
-        <li>Java</li>
-    </ul>
 
+    <div class="habilidades-container">
+
+      <div class="habilidade-card">
+        <h3>Front-end</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="habilidade-card">
+        <h3>Back-end</h3>
+        <p>C#, Java</p>
+      </div>
+
+      <div class="habilidade-card">
+        <h3>Outros</h3>
+        <p>Git, GitHub, .NET MAUI</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 </section>
 
 
 <section id="proj">
-
+    <div class="container">
     <h2>Projetos</h2>
+    <div class="projetos-container">
 
+    <div class="projeto-card">
     <h3>APIs</h3>
     <p>Partcipei de um trabalho onde desenvolvi as API para o fucionamento do aplicativo que fizemos</p>
+    </div>
 
-    <ul>
-     <li>C#</li>
-    </ul>
-
+    <div class="projeto-card">
     <h3>Projeto teste</h3>
-
     <p>Atividade realizada em aula na Etec, para testar cadastro</p>
+    </div>
 
-    <ul>
-        <li>React</li>
-        <li>JavaScript</li>
-        <li>HTML e CSS</li>
-    </ul>
-
+    </div>
+</div>
 </section>
 
 
 <section id="contato">
-
+    <div class="container ">
     <h2>Contato</h2>
 
-    <a href="https://wa.me/5511968518018?text=Ol%C3%A1">Entrar em contato</a>
+    <div class="contato-container">
+    <form action="#" method="post">
+        <h3 class="h3">Envie sua mensagem</h3>
+        <label for="nome">Nome*</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
 
+        <label for="email">E-mail*</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="mensagem">Mensagem*</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+    <div class="informacoes-contato">
+        <br>
     <h3>E-mail</h3>
     <p>isabellesouzalima80@gmail.com</p>
 
     <h3>Redes Sociais</h3>
-
-    <ul>
-        <li> <a href="https://github.com/isasouzz">GitHub</a></li>
-        <li> <a href="https://www.instagram.com/isasouza4_">Instagram</a></li>
-        <li> <a href="https://www.linkedin.com/in/isabelle-souza">Linkedin</a></li>
+    <ul class="links">
+        <li><a href="https://github.com/isasouzz" class="btn-social">GitHub</a></li>
+        <li><a href="https://www.instagram.com/isasouza4_" class="btn-social">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/isabelle-souza-9342a027a/" class="btn-social">LinkedIn</a></li>
     </ul>
-
+    <br>
+    <a class="btn" href="https://wa.me/5511968518018?text=Ol%C3%A1">Entrar em contato</a>
+  
+    </div>
+    </div>
+</div>
 </section>
+
 
 <footer>
 
