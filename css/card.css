@@ -1,0 +1,23 @@
+.card {
+  background-color: var(--branco);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px; }
+
+.habilidade-card {
+  flex: 1;
+  min-width: 200px;
+  background-color: var(--branco);
+  padding: 15px;
+  border-radius: 20px;
+  border-top: 4px solid var(--laranja);
+}
+
+.projeto-card {
+  background-color: var(--branco);
+  padding: 15px;
+  border-radius: 20px;
+  border-top: 4px solid var(--laranja);
+  flex: 1;
+  min-width: 250px; }

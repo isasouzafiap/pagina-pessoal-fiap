@@ -1,0 +1,37 @@
+header {
+    background-color: var(--roxo);
+    color: var(--branco);
+    text-align: center;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: var(--verde); 
+}
+
+.botao {
+    background-color: var(--verde);
+    color: var(--roxo-escuro);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 20px;
+    text-decoration: none; }
+.botao:hover {
+    background-color: var(--laranja);
+    transition: background-color 0.3s ease; }
+
