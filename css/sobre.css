@@ -1,0 +1,14 @@
+.sobre-mim {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.texto-sobre-mim {
+  max-width: 700px;}
+
+.foto-perfil {
+  width: 180px;
+  border-radius: 20px;
+
+}
