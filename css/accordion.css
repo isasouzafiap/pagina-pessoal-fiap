@@ -1,0 +1,29 @@
+.accordion {
+    background-color: var(--branco);
+    color: var(--roxo);
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: 2px solid var(--roxo);
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.accordion:hover {
+    background-color: var(--fundo);
+}
+
+.painel {
+    display: none;
+    padding: 15px;
+    border: 2px solid var(--roxo);
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--branco);
+}
+
+.painel ul {
+    margin: 0;
+}
