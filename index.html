@@ -148,16 +148,21 @@
     <h2>Contato</h2>
 
     <div class="contato-container">
-    <form action="#" method="post">
+    <form id="formContato" novalidate>
         <h3 class="h3">Envie sua mensagem</h3>
+        <p id="mensagemStatus"></p>
+
         <label for="nome">Nome*</label>
-        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" >
+        <small class="erro"></small>
 
         <label for="email">E-mail*</label>
-        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+        <input type="text" id="email" name="email" placeholder="seu@email.com" >
+        <small class="erro"></small>
 
         <label for="mensagem">Mensagem*</label>
-        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" ></textarea>
+        <small class="erro"></small>
 
         <button type="submit">Enviar Mensagem</button>
     </form>
