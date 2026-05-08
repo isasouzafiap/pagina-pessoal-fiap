@@ -11,15 +11,25 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
 
 <header>
+    <div class="logo-container">
+    <img src="img/download.png" alt="Logo " class="logo">
+    <h1 class="site-title">Portfólio</h1>
+  </div>
 
-    <h1>Portfólio</h1>
+    <button id="btnMenu" class="hamburguer">
+    <span></span>
+     <span></span>
+    <span></span>
+    </button>
 
-    <ul class="menu">
+    <ul class="menu" id="menu">
        <li> <a href="#sobre">Sobre Mim</a> </li>
        <li> <a href="#obj">Objetivo Profissional</a></li>
        <li> <a href="#hab">Habilidades</a> </li>
@@ -79,8 +89,7 @@
 <section id="hab">
   <div class="container">
     <h2>Habilidades</h2>
-
-
+    
     <div class="habilidades-container">
 
       <div class="habilidade-card">
@@ -99,6 +108,17 @@
       </div>
 
     </div>
+
+    <button class="accordion">▼ Detalhes das Habilidades</button>
+
+    <div class="painel">
+      <ul>
+        <li>Tenho conhecimentos em desenvolvimento front-end utilizando HTML, CSS e JavaScript, com foco na criação de interfaces organizadas.</li>
+        <li> Com back-end tenho experiências como C# e Java, além de noções de modelagem de dados.</li>
+        <li> Utilizo ferramentas como Git e GitHub para controle de versão e colaboração em projetos, e já tive contato com o desenvolvimento de aplicações utilizando .NET MAUI.</li>
+      </ul>
+    </div>
+
   </div>
     </section>
 
@@ -168,5 +188,10 @@
 
 </footer>
 
-</body>
+</body> 
+
+<button id="btnTopo">↑</button>
+
+<script src="js/script.js"></script>
+
 </html>
