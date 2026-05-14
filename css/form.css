@@ -46,3 +46,15 @@ form button {
 form button:hover, .btn-social:hover  {
   background-color: var(--laranja);
 }
+.erro {
+    color: var(--vermelho);
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#mensagemStatus {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
